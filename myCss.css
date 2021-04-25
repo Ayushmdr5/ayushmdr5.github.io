@@ -1,0 +1,53 @@
+.header{
+    width: 100%;
+    background-color: rgb(11, 148, 34);
+    text-align: center;
+    
+    font-weight: 600;
+    padding: 2% 0;
+    font-size: 2em;
+    color: white;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 3% auto;
+    box-shadow: 0px 0px 8px 5px rgb(243, 255, 243);
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    font-size: 1.2em;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f7fff6;
+  }
+
+.demo_btn{
+    width: 160px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    background-color:  rgb(13, 163, 38);
+}
+.code_btn{
+    width: 160px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid rgb(153, 1, 153);
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(153, 1, 153);
+    font-size: 18px;
+    background-color:  white;
+}
