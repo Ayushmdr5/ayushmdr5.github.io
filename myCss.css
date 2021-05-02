@@ -57,6 +57,7 @@ table {
     font-size: 18px;
     border: 1px solid rgb(13, 163, 38);
     background-color: white;
+    transition: 0.2s;
     /* background-color:  rgb(13, 163, 38); */
 }
 .demo_btn:hover{
@@ -74,6 +75,7 @@ table {
     color: rgb(153, 1, 153);
     font-size: 18px;
     background-color:  white;
+    transition: 0.2s;
 }
 .code_btn:hover{
   background-color: rgb(255, 234, 255);
