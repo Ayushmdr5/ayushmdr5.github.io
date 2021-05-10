@@ -2,21 +2,29 @@
     width: 100%;
     text-align: center;
     font-weight: 600;
-    padding: 1.5% 0;
+    padding: 2% 0;
     font-size: 2em;
     color: white;
-    box-shadow: 0px 0px 20px rgb(81, 167, 95);
-
+    /* box-shadow: 0px 0px 20px rgb(81, 167, 95); */
+    letter-spacing: 1px;
     background-color: rgb(251, 253, 251);
-    color: rgb(65, 158, 81);
-    box-shadow: 0px 0px 20px rgba(131, 131, 131, 0.15);
+    background-color: rgb(248, 255, 248);
+
+    color: rgb(57, 150, 73);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    /* color: #353839; */
+    /* box-shadow: 0px 0px 20px rgba(131, 131, 131, 0.15); */
+
+    /* background-color: #121212; */
+    /* color: white */
 }
 
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 70%;
-    margin: 4% auto;
+    margin: 2% auto 0 auto;
     border-radius: 8px 8px 0 0;
     overflow:hidden;
     box-shadow: 0px 0px 20px rgb(0,0,0,0.15);
@@ -26,6 +34,8 @@ table {
   }
   th{
     background-color: rgb(65, 158, 81);
+    letter-spacing: 0.7px;
+
   }
   
   td, th {
@@ -35,19 +45,28 @@ table {
   }
   tr{
     border-bottom: 1px solid #dddddd;
-    color: black
+    color: black;
   }
   
   tr:nth-child(odd) {
     background-color: #f7fff6;
     /* #f7fff6 */
   }
+  tr:nth-child(even) {
+    background-color: white;
+    /* #f7fff6 */
+  }
   tr:last-of-type{
     border-bottom: 2px solid rgb(11, 148, 34);
   }
+  td:nth-child(2){
+    text-align: left;
+    padding-left: 30px;
+    width: 450px;
+  }
 
 .demo_btn{
-    width: 130px;
+    width: 115px;
     border: none;
     outline: none;
     border-radius: 8px;
@@ -58,11 +77,17 @@ table {
     border: 1px solid rgb(13, 163, 38);
     background-color: white;
     transition: 0.2s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
     /* background-color:  rgb(13, 163, 38); */
 }
 .demo_btn:hover{
+  /* background-color:  rgb(247, 255, 248); */
+  background-color: rgb(65, 158, 81);
+  /* border: none; */
+  /* color: white; */
   background-color:  rgb(247, 255, 248);
-  box-shadow: 0 0 20px rgb(220, 240, 224);
+  box-shadow: 0 0 10px rgb(220, 240, 224);
 }
 .code_btn{
     width: 130px;
@@ -76,8 +101,12 @@ table {
     font-size: 18px;
     background-color:  white;
     transition: 0.2s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 .code_btn:hover{
   background-color: rgb(255, 234, 255);
-  box-shadow: 0 0 20px rgb(248, 221, 248);
+  /* background-color: rgb(153, 1, 153); */
+  /* color: white; */
+  box-shadow: 0 0 10px rgb(248, 221, 248);
 }
